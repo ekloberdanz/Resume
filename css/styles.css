@@ -21,6 +21,7 @@ html {
 
 body {
 	color: #343434;
+	background-color: #F7FFF7;
 	margin: 0;
 	padding: 0;
 	font-family: 'Montserrat', sans-serif;
@@ -66,7 +67,7 @@ h1, h2 {
 }
 .content-wrapper {
 	width: 85%;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 	padding-bottom: 10px;
 	margin-left: 15px;
 	padding-left: 40px;
@@ -91,10 +92,12 @@ h3 {
 .content {
   float: right;
   width: 60%;
-  padding-bottom: 50px;
+  margin-top:20px;
   margin-right: 5%;
+  border-left: 3px solid #0086AC;
+  margin-bottom: 40px;
 }
-.content::after {
+/*.content::after {
   content : "";
   position: absolute;
   right    : 100;
@@ -104,7 +107,7 @@ h3 {
   height   : 250%; 
   bottom: 200px;
   background: #0086AC;
-}
+}*/
 /*.horizontal-divider{
 	position:absolute;
     left:34%;
@@ -249,10 +252,11 @@ footer {
 .sidebar {
   float: left;
   width: 30%;
+  margin-top:20px;
   background: #F7FFF7;
   padding-left: 40px;
   padding-right: 40px;
-  padding-top: 10px;
+  /*padding-top: 10px;*/
   margin-left: 5%;
 	}
 .sidebar img {
