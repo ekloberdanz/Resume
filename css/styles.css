@@ -338,6 +338,7 @@ footer {
   padding-left: 5%;
   margin-right: 5%;
   background: #F7FFF7;
+  padding-bottom: 40px;
 	}
 }
 @media screen and (max-width: 1025px) {
