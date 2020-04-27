@@ -67,7 +67,6 @@ h1, h2 {
 }
 .content-wrapper {
 	width: 85%;
-	/*padding-top: 10px;*/
 	padding-bottom: 10px;
 	margin-left: 15px;
 	padding-left: 40px;
@@ -206,24 +205,28 @@ header ul li.web {
 .project-item h3 {
 	margin-top: -15px;
 }
+.scrollbar {
+    background-color: #F7FFF7;
+    float: left;
+    height: 500px;
+    overflow-y: scroll;
+    width: 100%;
+	padding-right: -500px;
+	margin-bottom: 30px; 
+}
 /* Work Experience
 ----------------------------------------------------*/
 .work-experience {
 	background: #F7FFF7;
 }
-/*.job-item {
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	column-gap: 20px;
-}*/
 .job-item h3 {
 	margin-top: -15px;
 }
-
 /* Education
 ----------------------------------------------------*/
 .education {
 	background: #F7FFF7;
+	margin-top: -20px;
 }
 /*.education p {
 	width: 60%;
