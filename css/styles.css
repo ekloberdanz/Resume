@@ -391,7 +391,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10px;
 	line-height: 1;
-	}
+}
 .content {
 	float: right;
 	width: 90%;
@@ -405,5 +405,14 @@ body {
 .content-wrapper {
 	margin: 0;
 	padding: 0;
+	}
+.alignleft {
+	float: none;
+}
+.alignright {
+	float: none;
+}
+.content-wrapper h3 {
+	padding-bottom: 8px;
 	}
 }
