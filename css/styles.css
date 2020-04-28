@@ -326,13 +326,14 @@ footer {
 }
 /* Responsive
 ----------------------------------------------------*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 900px) and (min-width: 326px) {
 .content {
  	float: right;
  	width: 95%;
  	margin-left: 40px;
  	padding-left: 5%;
   	margin-bottom: -50px;
+  	border-left: none;
 }
 .sidebar {
 	float: right;
@@ -343,12 +344,21 @@ footer {
 	background: #F7FFF7;
 	padding-bottom: 40px;
 	}
+header h1 {
+	font-size: 40px;
+	text-align: center;
+	margin-left: -80px;
+	line-height: .9;
+	padding-top: 20px;
+	}
 }
+
 @media screen and (max-width: 1025px) {
 .sidebar h2 {
 	line-height: 1;
 	}
 }
+
 /* ------------------- Smartphone ---------------------------------------------- */
 @media screen and (max-width: 325px) {
 header {
